@@ -59,7 +59,7 @@ body{
     grid-area: social;
     
     }
-    .smaller-text{
+    .tiny-text{
         font-size: 12px;
         text-align: center;   
     }
@@ -74,21 +74,21 @@ body{
     /* #schedule-image{
     } */
 
-    #use-ai{
+    #useing-ai{
     padding: 2rem;
     border-radius: 10px;
     background-color: var(--yellow-text);
     grid-area: ai; 
     }
 
-    #multiple-account{
+    #diff-account{
     padding: 2rem;
     border-radius: 10px;
     background-color: var(--white-text) ;
     grid-area: multiple;
     }
 
-    #posting-schedule{
+    #casting-schedule{
     padding: 2rem;
     border-radius: 10px;
     background-color: var(--yellow-text);
