@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+:root{
+    --black-text: hsl(0, 0%, 7%);
+    --white-text: #ffffff;
+    --purple-text: hsl(256, 67%, 59%);
+    --light--purple-text: hsl(254, 88%, 90%);
+    --yellow-text: hsl(39, 100%, 71%);
+    --light-yellow-text: hsl(31, 66%, 93%);
+    --White: hsl(0, 0%, 100%);
+
+}
+html{
+    font-size: 10px;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: "DM Sans", sans serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.container{
+  width: 80rem;
+  background-color: var(--White);
+  padding: 5rem;
+  margin: 5rem auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(3, 200px);
+  grid-template-areas: 
+  "create social social schedule"
+  "ai multiple posting schedule"
+  "ai audience grow grow";
+  gap: 20px;
+    
+}
+#create-post{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--light-yellow-text);
+    grid-area: create;
+}
+#create-post-text{
+    color: var(--black-text);
+
+}
+#quicker{
+    color: var(--purple-text);
+    }
+
+    #social-media{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--purple-text);
+    color: var(--white-text);
+    grid-area: social;
+    
+    }
+    .smaller-text{
+        font-size: 12px;
+        text-align: center;   
+    }
+
+    #schedule{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--light--purple-text) ;
+    grid-area: schedule;
+
+    }
+    /* #schedule-image{
+    } */
+
+    #use-ai{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--yellow-text);
+    grid-area: ai; 
+    }
+
+    #multiple-account{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--white-text) ;
+    grid-area: multiple;
+    }
+
+    #posting-schedule{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--yellow-text);
+    grid-area: posting;
+
+    }
+
+    #audience-growth{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--white-text);
+    grid-area: audience;
+ 
+    }
+
+    #grow-followers{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: var(--purple-text);
+    display: flex;
+    color: #ffffff;
+    grid-area: grow;
+ 
+    }
